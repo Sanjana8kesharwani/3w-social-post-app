@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5050/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://threew-social-post-app-zvqc.onrender.com',
 });
 
 // Request interceptor to automatically inject the JWT auth token from localStorage
